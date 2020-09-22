@@ -1,0 +1,11 @@
+{
+  "functionTimeout": "00:10:00",
+  "version": "2.0",
+  "extensions": {
+    "durableTask": {
+      "extendedSessionsEnabled": true,
+      "extendedSessionIdleTimeoutInSeconds": 30,
+      "maxOrchestrationActions": "10000000" 
+    }
+  }
+}
